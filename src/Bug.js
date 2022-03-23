@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./Bug.module.css";
+import bugImage from "./images/bug.png";
 
 function Bug({ width, height, setVisibleBug }) {
   function showPopUp() {
@@ -20,7 +21,7 @@ function Bug({ width, height, setVisibleBug }) {
         zIndex: "100",
       }}
     >
-      <img className={styles.bugImg} src={process.env.PUBLIC_URL + "bug.png"} />
+      <img className={styles.bugImg} src={bugImage} />
     </button>
   );
 }

@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import styles from "./Header.module.css";
 import Bug from "./Bug";
 import LanguageCard from "./LanguageCard";
+import profileImage from "./images/profile-photo.png";
 
 const rHeightNumber = Math.floor(Math.random() * window.innerHeight);
 const rWidthNumber = Math.floor(Math.random() * window.innerWidth);
@@ -84,7 +85,7 @@ const Header = () => {
       <img
         className={styles.profilePhoto}
         alt="profile-photo"
-        src={process.env.PUBLIC_URL + "profile-photo.png"}
+        src={profileImage}
       />
     </div>
   );

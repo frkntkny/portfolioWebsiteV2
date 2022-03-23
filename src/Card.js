@@ -18,11 +18,7 @@ const Card = ({
         }
       >
         <div className="card d-flex " style={{ width: "18rem" }}>
-          <img
-            src={process.env.PUBLIC_URL + imgSRC}
-            className="card-img-top"
-            alt={title + "-img"}
-          />
+          <img src={imgSRC} className="card-img-top" alt={title + "-img"} />
           <div className="card-body ">
             <h3 className="card-title text-dark">{title}</h3>
             <p className="card-text text-dark align-start">{description}</p>
@@ -43,11 +39,7 @@ const Card = ({
       className={styles.cardDiv + " col-sm d-flex justify-content-center mt-4"}
     >
       <div className="card d-flex " style={{ width: "18rem" }}>
-        <img
-          src={process.env.PUBLIC_URL + imgSRC}
-          className="card-img-top"
-          alt={title + "-img"}
-        />
+        <img src={imgSRC} className="card-img-top" alt={title + "-img"} />
         <div className="card-body ">
           <h3 className="card-title text-dark">{title}</h3>
           <p className="card-text text-dark align-start">{description}</p>

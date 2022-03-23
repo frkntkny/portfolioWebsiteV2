@@ -1,0 +1,14 @@
+.parentDiv {
+  background-color: black;
+  color: white;
+}
+.projectsTitle {
+  padding-top: 55px;
+  margin-left: 80px;
+  font-size: 25px;
+}
+
+.myLayoutContainer {
+  background-color: black;
+  padding-bottom: 50px;
+}

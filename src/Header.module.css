@@ -1,0 +1,86 @@
+body {
+  background-color: red;
+}
+.topHeader {
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+}
+.textContent {
+  padding-top: 55px;
+  padding-left: 80px;
+  font-size: 70px;
+  color: white;
+}
+.profilePhoto {
+  width: 80vh;
+  position: absolute;
+  right: -100px;
+  bottom: -10px;
+}
+.counterDiv {
+  position: absolute;
+  top: 30px;
+  right: 0;
+  width: 200px;
+  height: 50px;
+  background-color: #bbed2f;
+  color: black;
+  text-align: center;
+  font-size: 25px;
+  padding-top: 7px;
+  border-radius: 30px 0 0 30px;
+}
+.textDescription {
+  padding-top: 5px;
+  padding-left: 80px;
+  font-size: 25px;
+  color: white;
+  z-index: 10;
+}
+.portfolioButton {
+  position: absolute;
+  bottom: 70px;
+  left: 70px;
+  width: 300px;
+  height: 50px;
+  background-color: #bbed2f;
+  color: black;
+  text-align: center;
+  font-size: 25px;
+  z-index: 10;
+  border-radius: 30px 30px 30px 30px;
+}
+
+@media only screen and (max-width: 540px) {
+  .profilePhoto {
+    width: 80vh;
+    position: absolute;
+    right: -200px;
+    bottom: -10px;
+  }
+  .textContent {
+    padding-top: 70px;
+    padding-left: 20px;
+    font-size: 60px;
+    color: white;
+  }
+  .textDescription {
+    padding-top: 5px;
+    padding-left: 20px;
+    font-size: 15px;
+    color: white;
+  }
+  .portfolioButton {
+    position: absolute;
+    bottom: 70px;
+    left: 20px;
+    width: 300px;
+    height: 50px;
+    background-color: #bbed2f;
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 30px 30px 30px 30px;
+  }
+}

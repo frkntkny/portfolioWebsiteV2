@@ -1,0 +1,33 @@
+.cardButton {
+  position: absolute;
+  bottom: 10px;
+  width: 250px;
+  height: 50px;
+  float: left;
+  background-color: #bbed2f;
+  color: black;
+  text-align: center;
+  font-size: 25px;
+  padding-top: 7px;
+  border-radius: 10px 10px 10px 10px;
+  text-decoration: none;
+}
+.cardButton50 {
+  position: relative;
+  bottom: -5px;
+  width: 120px;
+  margin-right: 5px;
+
+  height: 50px;
+  float: left;
+  background-color: #bbed2f;
+  color: black;
+  text-align: center;
+  font-size: 25px;
+  padding-top: 7px;
+  border-radius: 10px 10px 10px 10px;
+  text-decoration: none;
+}
+.cardDiv {
+  min-height: 500px;
+}

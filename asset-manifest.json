@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/portfolioWebsiteV2/static/css/main.8cd85993.css",
-    "main.js": "/portfolioWebsiteV2/static/js/main.1d48b126.js",
+    "main.css": "/portfolioWebsiteV2/static/css/main.fe379024.css",
+    "main.js": "/portfolioWebsiteV2/static/js/main.fb72afde.js",
     "static/media/portfolio-website.png": "/portfolioWebsiteV2/static/media/portfolio-website.28eb030c425aff4df40e.png",
-    "static/media/profile-photo.png": "/portfolioWebsiteV2/static/media/profile-photo.c62c807ef9119d8d4839.png",
+    "static/media/profile-photo.png": "/portfolioWebsiteV2/static/media/profile-photo.1580d22936cf4f9bf313.png",
     "static/media/cherry-to-do.png": "/portfolioWebsiteV2/static/media/cherry-to-do.1fc5cce090015172ceef.png",
     "static/media/pomolife-timer.png": "/portfolioWebsiteV2/static/media/pomolife-timer.8ddc7ac6fa22934a3e8c.png",
     "static/media/bug.png": "/portfolioWebsiteV2/static/media/bug.d01058f4c8eb797d2ffd.png",
     "static/media/LoonDoor.png": "/portfolioWebsiteV2/static/media/LoonDoor.8fa30118c4129da50fae.png",
     "index.html": "/portfolioWebsiteV2/index.html",
-    "main.8cd85993.css.map": "/portfolioWebsiteV2/static/css/main.8cd85993.css.map",
-    "main.1d48b126.js.map": "/portfolioWebsiteV2/static/js/main.1d48b126.js.map"
+    "main.fe379024.css.map": "/portfolioWebsiteV2/static/css/main.fe379024.css.map",
+    "main.fb72afde.js.map": "/portfolioWebsiteV2/static/js/main.fb72afde.js.map"
   },
   "entrypoints": [
-    "static/css/main.8cd85993.css",
-    "static/js/main.1d48b126.js"
+    "static/css/main.fe379024.css",
+    "static/js/main.fb72afde.js"
   ]
 }

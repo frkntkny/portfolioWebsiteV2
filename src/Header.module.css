@@ -56,7 +56,7 @@ body {
   .profilePhoto {
     width: 25vh;
     position: absolute;
-    right: -20px;
+    right: 10px;
     bottom: -10px;
   }
   .textContent {

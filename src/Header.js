@@ -74,7 +74,7 @@ const Header = () => {
         </p>
         <br />
         <br />
-        <h6>Contact: tekinayfurkan@gmail.com</h6>
+        <h6>tekinayfurkan@gmail.com</h6>
       </div>
       <button className={styles.portfolioButton} onClick={smoothScroll}>
         View My Portfolio

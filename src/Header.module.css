@@ -54,9 +54,9 @@ body {
 
 @media only screen and (max-width: 540px) {
   .profilePhoto {
-    width: 30vh;
+    width: 25vh;
     position: absolute;
-    right: 0px;
+    right: -10px;
     bottom: -10px;
   }
   .textContent {

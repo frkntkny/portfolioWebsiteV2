@@ -1,7 +1,7 @@
 {
   "name": "my-portfolio-website-v2",
   "version": "0.1.0",
-  "homepage": "https://github.com/frkntkny/portfolioWebsiteV2",
+  "homepage": "https://frkntkny.github.io/portfolioWebsiteV2/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",

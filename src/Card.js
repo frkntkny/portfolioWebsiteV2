@@ -19,16 +19,21 @@ const Card = ({
       >
         <div className="card d-flex " style={{ width: "18rem" }}>
           <img src={imgSRC} className="card-img-top" alt={title + "-img"} />
-          <div className="card-body ">
+          <div className="card-body d-flex align-items-start flex-column  ">
             <h3 className="card-title text-dark">{title}</h3>
-            <p className="card-text text-dark align-start">{description}</p>
-
-            <a href={link1} className={styles.cardButton50} target="_blank">
-              {linkText1}
-            </a>
-            <a href={link2} className={styles.cardButton50} target="_blank">
-              {linkText2}
-            </a>
+            <p className=" card-text text-dark align-start">{description}</p>
+            <div className="mb-auto ">
+              <a
+                href={link1}
+                className={` ${styles.cardButton50l}`}
+                target="_blank"
+              >
+                {linkText1}
+              </a>
+              <a href={link2} className={styles.cardButton50r} target="_blank">
+                {linkText2}
+              </a>
+            </div>
           </div>
         </div>
       </div>

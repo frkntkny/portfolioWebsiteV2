@@ -7,6 +7,7 @@ import loondoorImage from "./images/LoonDoor.png";
 import cherrytodoImage from "./images/cherry-to-do.png";
 import pomolifeTimerImage from "./images/pomolife-timer.png";
 import alpacaGenerator from "./images/alpacaGenerator.png";
+import nanaMascot from "./images/nanoMascot.png";
 
 function Portfolio() {
   return (
@@ -17,13 +18,11 @@ function Portfolio() {
       <div className={styles.myLayoutContainer + " container"}>
         <div className="row">
           <Card
-            title="Alpaca Mascot"
-            description="Alpaca mascot generator. Build with React "
-            imgSRC={alpacaGenerator}
-            link1="https://alpaca-mascot.herokuapp.com/"
+            title="NanoTiger Mascot"
+            description="nanoTIger mascot generator. Build with React "
+            imgSRC={nanaMascot}
+            link1="http://www.nanomascot.tech"
             linkText1="Website"
-            link2="https://github.com/frkntkny/project-alpacaMascot"
-            linkText2="Github"
           />
           <Card
             title="Portfolio Website V2"

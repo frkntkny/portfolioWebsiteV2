@@ -23,13 +23,16 @@ body {
   top: 30px;
   right: 0;
   width: 200px;
-  height: 50px;
+  height: 55px;
   background-color: #bbed2f;
   color: black;
   text-align: center;
-  font-size: 25px;
-  padding-top: 7px;
+  font-size: 10px;
+  padding-top: 0px;
   border-radius: 30px 0 0 30px;
+}
+.countDesc {
+  font-size: 12px;
 }
 .textDescription {
   padding-top: 5px;
@@ -82,5 +85,8 @@ body {
     text-align: center;
     font-size: 25px;
     border-radius: 30px 30px 30px 30px;
+  }
+  .countDesc {
+    font-size: 12px;
   }
 }

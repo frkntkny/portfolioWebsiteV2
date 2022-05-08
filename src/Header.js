@@ -10,6 +10,7 @@ const rWidthNumber = Math.floor(Math.random() * window.innerWidth);
 const Header = () => {
   const [visibileBug, setVisibleBug] = useState(true);
   const [visitedCount, setVisitedCount] = useState();
+  const [bugFoundCount, setBugFoundCount] = useState();
 
   useEffect(() => {
     fetch(
@@ -21,8 +22,10 @@ const Header = () => {
         }
       })
       .then((data) => {
+        console.log(data);
         const newNumber = { count: data.count + 1 };
         setVisitedCount(newNumber.count);
+        setBugFoundCount(data.bugCount);
         console.log(newNumber.count);
         fetch(
           "https://portfoliowebsite-98670-default-rtdb.firebaseio.com/count.json",
@@ -53,6 +56,8 @@ const Header = () => {
           width={rHeightNumber}
           height={rWidthNumber}
           setVisibleBug={setVisibleBug}
+          setBugFoundCount={setBugFoundCount}
+          bugFoundCount={bugFoundCount}
         />
       )}
 
@@ -81,7 +86,19 @@ const Header = () => {
         <span> &#8594;</span>
       </button>
 
-      <div className={styles.counterDiv}>{visitedCount}</div>
+      <div className={styles.counterDiv}>
+        <div className="container d-inline-flex">
+          <div className="row ">
+            <div className="col fs-4">{visitedCount}</div>
+            <div className={`col ${styles.countDesc}`}>Total visits</div>
+          </div>
+          <div className="row">
+            <div className="col fs-4">{bugFoundCount}</div>
+            <div className={`col ${styles.countDesc}`}>Bugs found</div>
+          </div>
+        </div>
+        {/* <span> </span> <span> {visitedCount}</span> */}
+      </div>
       <img
         className={styles.profilePhoto}
         alt="profile-photo"

@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolioWebsiteV2/static/css/main.3a0ec4e2.css",
-    "main.js": "/portfolioWebsiteV2/static/js/main.1959ceba.js",
+    "main.css": "/portfolioWebsiteV2/static/css/main.17cd44ef.css",
+    "main.js": "/portfolioWebsiteV2/static/js/main.184070ca.js",
     "static/media/nanoMascot.png": "/portfolioWebsiteV2/static/media/nanoMascot.1b95348b7ccce575f86e.png",
     "static/media/portfolio-website.png": "/portfolioWebsiteV2/static/media/portfolio-website.28eb030c425aff4df40e.png",
     "static/media/alpacaGenerator.png": "/portfolioWebsiteV2/static/media/alpacaGenerator.c6271cfbc357472e38f3.png",
@@ -11,11 +11,11 @@
     "static/media/bug.png": "/portfolioWebsiteV2/static/media/bug.d01058f4c8eb797d2ffd.png",
     "static/media/LoonDoor.png": "/portfolioWebsiteV2/static/media/LoonDoor.8fa30118c4129da50fae.png",
     "index.html": "/portfolioWebsiteV2/index.html",
-    "main.3a0ec4e2.css.map": "/portfolioWebsiteV2/static/css/main.3a0ec4e2.css.map",
-    "main.1959ceba.js.map": "/portfolioWebsiteV2/static/js/main.1959ceba.js.map"
+    "main.17cd44ef.css.map": "/portfolioWebsiteV2/static/css/main.17cd44ef.css.map",
+    "main.184070ca.js.map": "/portfolioWebsiteV2/static/js/main.184070ca.js.map"
   },
   "entrypoints": [
-    "static/css/main.3a0ec4e2.css",
-    "static/js/main.1959ceba.js"
+    "static/css/main.17cd44ef.css",
+    "static/js/main.184070ca.js"
   ]
 }
